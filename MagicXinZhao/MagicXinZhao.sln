@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicXinZhao", "MagicXinZhao.csproj", "{9B8AEFC1-639F-4BED-8771-9ECB5A6170F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicAIO", "MagicAIO.csproj", "{6680C779-15B0-4F72-9A96-80B5F8B28D1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B8AEFC1-639F-4BED-8771-9ECB5A6170F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B8AEFC1-639F-4BED-8771-9ECB5A6170F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B8AEFC1-639F-4BED-8771-9ECB5A6170F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B8AEFC1-639F-4BED-8771-9ECB5A6170F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6680C779-15B0-4F72-9A96-80B5F8B28D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6680C779-15B0-4F72-9A96-80B5F8B28D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6680C779-15B0-4F72-9A96-80B5F8B28D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6680C779-15B0-4F72-9A96-80B5F8B28D1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
