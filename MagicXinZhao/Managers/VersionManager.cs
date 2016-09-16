@@ -14,7 +14,7 @@ namespace MagicAIO.Managers
         { 
             get { return Assembly.GetExecutingAssembly().GetName().Version; } 
         }
-
+        /*
         public static void CheckVersion()
         {
             Task.Factory.StartNew(() =>
@@ -49,6 +49,6 @@ namespace MagicAIO.Managers
 
                 });
 
-        }
+        }*/
     }
 }

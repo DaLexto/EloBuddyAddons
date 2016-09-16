@@ -11,7 +11,7 @@ namespace MagicAIO
 
         private static void OnGameLoadComplete(EventArgs args)
         {
-            VersionManager.CheckVersion();
+            //VersionManager.CheckVersion();
 
             try
             {
