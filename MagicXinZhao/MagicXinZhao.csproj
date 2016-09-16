@@ -7,8 +7,8 @@
     <ProjectGuid>{9B8AEFC1-639F-4BED-8771-9ECB5A6170F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xinzhao7</RootNamespace>
-    <AssemblyName>Xinzhao7</AssemblyName>
+    <RootNamespace>MagicXinZhao</RootNamespace>
+    <AssemblyName>MagicXinZhao</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EloBuddy">

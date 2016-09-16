@@ -15,7 +15,7 @@ using SharpDX;
 using SharpDX.Direct3D9;
 using Color = System.Drawing.Color;
 
-namespace XinZhao7
+namespace MagicXinZhao
 {
     static class Program
     {
@@ -48,7 +48,7 @@ namespace XinZhao7
         static void OnLoadingComplete(EventArgs args)
         {
             if (!_Player.ChampionName.Contains("XinZhao")) return;
-            Chat.Print("Doctor's Xinzhao Loaded!", Color.Orange);
+            Chat.Print("Magic XinZhao Loaded!", Color.Orange);
             Bootstrap.Init(null);
             Q = new Spell.Active(SpellSlot.Q);
             W = new Spell.Active(SpellSlot.W);
