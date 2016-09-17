@@ -16,7 +16,7 @@ namespace MagicAIO
             try
             {
                 Activator.CreateInstance(null, "MagicAIO." + Player.Instance.ChampionName);
-                Chat.Print("Magic{0} Loaded, [By Magnifico], Version: {1}", Player.Instance.ChampionName == "XinZhao" ? "Zhao" : Player.Instance.ChampionName, VersionManager.ActualVersion);
+                Chat.Print("Magic{0} Loaded, [By Magnifico], Version: {1}", /*Player.Instance.ChampionName == "XinZhao" ? "Zhao" : */Player.Instance.ChampionName, VersionManager.ActualVersion);
             }
             catch(Exception e)
             {

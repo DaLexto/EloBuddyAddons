@@ -18,5 +18,6 @@ namespace MagicAIO.Bases.Interface
 
         // Events
         void Game_OnTick(EventArgs args);
+        void Drawing_OnDraw(EventArgs args);
     }
 }
