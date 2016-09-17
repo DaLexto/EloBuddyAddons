@@ -12,9 +12,12 @@ namespace MagicAIO.Bases
     {
         public static DemageManager demageManager { get; set; }
 
-        public static string CHAMP_MENU { get { return "Magic - " + EloBuddy.Player.Instance.ChampionName; } }
+        public static string CHAMP_MENU { get { return "Magic" + EloBuddy.Player.Instance.ChampionName; } }
+
         // Create Champion Menus
         protected Menu draw;
+        protected Menu combo;
+        protected Menu skills;
 
         readonly AIHeroClient Player = EloBuddy.Player.Instance;
 
@@ -23,6 +26,11 @@ namespace MagicAIO.Bases
             CreateMenu();
 
             draw = GetMenu("Drawings");
+            combo = GetMenu("Combo");
+            skills = GetMenu("Skill Manager");
+
+            CreateVars();
+            TriggerEvents();
         }
 
         private Menu GetMenu(string dispayMenuName)
@@ -41,7 +49,9 @@ namespace MagicAIO.Bases
         public virtual void TriggerEvents()
         {
             Game.OnTick += Game_OnTick;
+            Drawing.OnDraw += Drawing_OnDraw;
         }
+        
 
         public virtual void CreateVars()
         {
@@ -65,6 +75,11 @@ namespace MagicAIO.Bases
 
             // Make Kill Stealing Perma Activ
             PermaActiv();
+        }
+
+        public virtual void Drawing_OnDraw(EventArgs args)
+        {
+
         }
 
     }
