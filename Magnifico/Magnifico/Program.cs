@@ -9,14 +9,13 @@ using Color = System.Drawing.Color;
 using EloBuddy;
 //using EloBuddy.SDK;
 using EloBuddy.SDK.Events;
+using Magnifico.Logics.MainLogics;
+using Magnifico.Utilities;
 //using EloBuddy.SDK.Menu;
 //using EloBuddy.SDK.Menu.Values;
+using Magnifico.Logics.MyChampions;
 
-using MrWhoAIO.Logics.MainLogics;
-using MrWhoAIO.Utilities;
-using MrWhoAIO.Logics.MyChampions;
-
-namespace MrWhoAIO
+namespace Magnifico
 {
     internal static class Program
     {

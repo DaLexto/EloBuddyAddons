@@ -5,7 +5,7 @@ using System.Linq;
 using EloBuddy.SDK.Menu;
 using EloBuddy.SDK.Menu.Values;
 
-namespace MrWhoAIO.Utilities
+namespace Magnifico.Utilities
 {
     static class MenuManager
     {

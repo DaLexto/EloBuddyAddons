@@ -7,8 +7,8 @@
     <ProjectGuid>{6EC4489E-6A44-4EB4-8851-F73E27B65EC3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MrWhoAIO</RootNamespace>
-    <AssemblyName>MrWhoAIO</AssemblyName>
+    <RootNamespace>Magnifico</RootNamespace>
+    <AssemblyName>Magnifico</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
