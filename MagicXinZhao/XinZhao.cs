@@ -24,6 +24,8 @@ namespace MagicAIO
         readonly Spell.Targeted E = new Spell.Targeted(SpellSlot.E, 600);
         readonly Spell.Active R = new Spell.Active(SpellSlot.R, 187);
 
+        public int[] abilitySequence = new[] { 1, 2, 3, 1, 1, 4, 1, 3, 1, 2, 4, 2, 3, 2, 3, 4, 2, 3 };
+
 
         public override void CreateMenu()
         {
@@ -67,6 +69,7 @@ namespace MagicAIO
         public override void CreateVars()
         {
             new SkinManager(7);
+            new SkillLevelUp(abilitySequence);
         }
 
         public override void Drawing_OnDraw(EventArgs args)
