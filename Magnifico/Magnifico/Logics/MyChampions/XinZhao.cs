@@ -1,8 +1,8 @@
 ﻿using EloBuddy;
 using EloBuddy.SDK;
-using MrWhoAIO.Utilities;
+using Magnifico.Utilities;
 
-namespace MrWhoAIO.Logics.MyChampions
+namespace Magnifico.Logics.MyChampions
 {
     internal class XinZhao : ChampLogic
     {

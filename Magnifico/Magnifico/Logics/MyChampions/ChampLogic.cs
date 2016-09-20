@@ -3,11 +3,10 @@ using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK.Menu;
 using EloBuddy.SDK.Events;
+using Magnifico.Logics.MainLogics;
+using Magnifico.Utilities;
 
-using MrWhoAIO.Logics.MainLogics;
-using MrWhoAIO.Utilities;
-
-namespace MrWhoAIO.Logics.MyChampions
+namespace Magnifico.Logics.MyChampions
 {
     abstract class ChampLogic : ILogicSelector
     {

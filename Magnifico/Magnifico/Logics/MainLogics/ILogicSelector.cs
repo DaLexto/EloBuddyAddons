@@ -4,7 +4,7 @@ using EloBuddy;
 using EloBuddy.SDK;
 using EloBuddy.SDK.Events;
 
-namespace MrWhoAIO.Logics.MainLogics
+namespace Magnifico.Logics.MainLogics
 {
     interface ILogicSelector
     {

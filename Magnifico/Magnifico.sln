@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrWhoAIO", "MrWhoAIO\MrWhoAIO.csproj", "{6EC4489E-6A44-4EB4-8851-F73E27B65EC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnifico", "Magnifico\Magnifico.csproj", "{6EC4489E-6A44-4EB4-8851-F73E27B65EC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

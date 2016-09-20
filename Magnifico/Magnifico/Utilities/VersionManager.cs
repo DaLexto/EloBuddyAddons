@@ -6,7 +6,7 @@ using System.Net;
 using EloBuddy;
 using Version = System.Version;
 
-namespace MrWhoAIO.Utilities
+namespace Magnifico.Utilities
 {
     static class VersionManager
     {
