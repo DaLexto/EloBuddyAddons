@@ -13,7 +13,7 @@ using Magnifico.Logics.MainLogics;
 using Magnifico.Utilities;
 //using EloBuddy.SDK.Menu;
 //using EloBuddy.SDK.Menu.Values;
-using Magnifico.Logics.MyChampions;
+using Magnifico.Logics.MyChampions; 
 
 namespace Magnifico
 {
