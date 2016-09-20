@@ -81,8 +81,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logics\MainLogics\ILogicSelector.cs" />
-    <Compile Include="Logics\MyChampions\ChampLogic.cs" />
+    <Compile Include="Logics\Interfaces\IChampion.cs" />
+    <Compile Include="Logics\Interfaces\IChampMenu.cs" />
     <Compile Include="Logics\MyChampions\XinZhao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +104,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.-->
@@ -115,5 +116,4 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
-  
 </Project>

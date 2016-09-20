@@ -2,25 +2,24 @@
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Color = System.Drawing.Color;
 
 using EloBuddy;
-//using EloBuddy.SDK;
 using EloBuddy.SDK.Events;
-using Magnifico.Logics.MainLogics;
+using Magnifico.Logics.Interfaces;
+using Magnifico.Logics.MyChampions;
 using Magnifico.Utilities;
-//using EloBuddy.SDK.Menu;
-//using EloBuddy.SDK.Menu.Values;
-using Magnifico.Logics.MyChampions; 
+
 
 namespace Magnifico
 {
     internal static class Program
     {
         private static AIHeroClient MyHero => Player.Instance;
-        private static ILogicSelector Logic { get; set; }
+
 
 
         private static void Main(string[] args)
@@ -30,16 +29,17 @@ namespace Magnifico
 
         private static void Loading_OnLoadingComplete(EventArgs args)
         {
+            VersionManager.CheckVersion();
             try
             {
-                Activator.CreateInstance(null, MyHero.ChampionName);
-                Chat.Print("Mr. Who AIO Loaded!", Color.White);
-                Chat.Print("Version: {0}", VersionManager.ActualVersion);
+                Activator.CreateInstance(null, "Magnifico.Logics.MyChampions." + MyHero.ChampionName);
+                Chat.Print("MagnificoAIO - {0} Loaded, [by Magnifico]", MyHero.ChampionName);
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+               Console.WriteLine(e);
             }
+            
         }
 
         
