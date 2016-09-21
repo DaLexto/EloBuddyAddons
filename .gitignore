@@ -2,5 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Magnifico/Magnifico/obj/x86/Debug
-/Magnifico/Magnifico/bin/x86/Debug
+/Magnifico/Magnifico/obj
+/Magnifico/Magnifico/bin
