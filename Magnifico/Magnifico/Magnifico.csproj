@@ -82,11 +82,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logics\Interfaces\IChampion.cs" />
-    <Compile Include="Logics\Interfaces\IChampMenu.cs" />
+    <Compile Include="Logics\ChampBase.cs" />
     <Compile Include="Logics\MyChampions\XinZhao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\AutoSkillUp.cs" />
     <Compile Include="Utilities\MenuManager.cs" />
+    <Compile Include="Utilities\SkinManager.cs" />
     <Compile Include="Utilities\VersionManager.cs" />
   </ItemGroup>
   <ItemGroup>

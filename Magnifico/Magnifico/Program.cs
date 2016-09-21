@@ -34,6 +34,7 @@ namespace Magnifico
             {
                 Activator.CreateInstance(null, "Magnifico.Logics.MyChampions." + MyHero.ChampionName);
                 Chat.Print("MagnificoAIO - {0} Loaded, [by Magnifico]", MyHero.ChampionName);
+
             }
             catch (Exception e)
             {

@@ -9,12 +9,14 @@ namespace Magnifico.Utilities
     internal static class MenuManager
     {
         public static Menu CurrentMainMenu;
+        private static string _myChamp;
 
         public static Dictionary<string, Dictionary<string, Dictionary<Menu, Dictionary<string, Values>>>> Menus =
             new Dictionary<string, Dictionary<string, Dictionary<Menu, Dictionary<string, Values>>>>();
 
         public static Menu Init(string mMenuName)
         {
+            _myChamp = mMenuName;
             Menus.Add(mMenuName, new Dictionary<string, Dictionary<Menu, Dictionary<string, Values>>>());
 
             return CurrentMainMenu = MainMenu.AddMenu(mMenuName, mMenuName);
@@ -45,9 +47,12 @@ namespace Magnifico.Utilities
             return Menus[CurrentMainMenu.DisplayName][sMenuName].Keys.Last();
         }
 
-        internal static object AddSubbMenu(string v1, string v2)
+        public static Menu GetMenu(string displayName)
         {
-            throw new NotImplementedException();
+            if (Menus[_myChamp].Keys.Any(it => it == displayName))
+                return Menus[_myChamp][displayName].Keys.Last();
+
+            return null;
         }
 
         public static bool IsActive(this Menu menu, string identifier)
