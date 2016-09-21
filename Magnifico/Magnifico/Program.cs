@@ -32,10 +32,6 @@ namespace Magnifico
         private static void Main(string[] args)
         {
             Loading.OnLoadingComplete += Loading_OnLoadingComplete;
-            
-            /* DEBUG
-            TestApp();
-            */
         }
 
         private static void Loading_OnLoadingComplete(EventArgs args)
@@ -58,24 +54,5 @@ namespace Magnifico
                   Console.WriteLine(e);
               }
           }
-
-        /* private static void TestApp()
-        {
-            var champ = "Jax";
-            try
-            {
-                if (
-                    (ChampBase)
-                    Activator.CreateInstance(null,
-                            "Magnifico.Plugin.Champions." + champ + "." + champ)
-                        .Unwrap() != null)
-                    Console.WriteLine("Uspeh");
-            }
-            catch (Exception e)
-            {
-                // NOTE: Make ErrorHandler
-                Console.WriteLine(e + "\nThis Addon still don't support: " + champ);
-            }
-        }*/
     }
 }
