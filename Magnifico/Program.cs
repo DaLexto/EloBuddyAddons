@@ -48,10 +48,9 @@ namespace Magnifico
                   }
                  
               }
-              catch (Exception e)
+              catch (Exception exc)
               {
-                  // TODO: Make ErrorHandler
-                  Console.WriteLine(e);
+                  LogManager.Sender("Program Error at Loading_OnLoadingComplete, Activator.CreateInstance FAILED to initialize champion class\n Check Champions classe", exc, LogManager.LogLevel.Error);
               }
           }
     }
